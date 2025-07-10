@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Buy Course - SkillBoost</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .buy-container {
+      max-width: 600px;
+      background: white;
+      padding: 20px;
+      margin: 40px auto;
+      border-radius: 6px;
+      border: 1px solid #ccc;
+    }
+
+    .buy-container h2 {
+      margin-top: 0;
+      color: #1f2937;
+    }
+
+    .buy-container label {
+      display: block;
+      margin-top: 15px;
+      font-weight: bold;
+      text-align: left;
+    }
+
+    .buy-container input {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+    }
+
+    .buy-container button {
+      margin-top: 20px;
+      background-color: #10b981;
+      color: white;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+
+    .buy-container button:hover {
+      background-color: #0f766e;
+    }
+
+    .back-btn {
+      display: inline-block;
+      margin-top: 20px;
+      text-decoration: none;
+      color: #555;
+      border: 1px solid #aaa;
+      padding: 6px 14px;
+      border-radius: 4px;
+    }
+
+    .back-btn:hover {
+      background-color: #eee;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="header">
+    <h1>SkillBoost Academy</h1>
+  </div>
+
+  <div class="navbar">
+    <a href="html.html">HTML</a>
+    <a href="css.html">CSS</a>
+    <a href="js.html">JavaScript</a>
+    <a href="react.html">React</a>
+    <a href="python.html">Python</a>
+  </div>
+
+  <div class="buy-container">
+    <h2>Buy This Course</h2>
+    <form>
+      <label>Full Name</label>
+      <input type="text" placeholder="Enter your full name" required>
+
+      <label>Email Address</label>
+      <input type="email" placeholder="Enter your email" required>
+
+      <label>Card Number</label>
+      <input type="text" placeholder="1234 5678 9012 3456" required>
+
+      <label>Expiry Date</label>
+      <input type="text" placeholder="MM/YY" required>
+
+      <label>CVV</label>
+      <input type="text" placeholder="123" required>
+
+      <button type="submit">Confirm Purchase</button>
+    </form>
+
+    <a class="back-btn" href="../app.html">← Back to Home</a>
+  </div>
+
+  <div class="footer">
+    &copy; 2025 SkillBoost Academy. All rights reserved.
+  </div>
+
+</body>
+</html>

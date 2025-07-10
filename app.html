@@ -1,0 +1,137 @@
+<html>
+
+<head>
+    <title>SkillBoost - Learn Online</title>
+   <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="navbar">
+        <div class="navbarleft">
+            <span class="logo">SkillBoost</span>
+            <a href="#">Home</a>
+            <a href="#">Courses</a>
+            <a href="#">About</a>
+        </div>
+        <div class="navbarright">
+            <button onclick="openlogin()">Login</button>
+        </div>
+    </div>
+
+    <div class="header">
+        <h1>Grow Your Skills</h1>
+        <p>Simple & beginner-friendly platform to learn web development</p>
+    </div>
+
+
+
+    <div class="courses-section">
+        <h2>Featured Courses</h2>
+        <div class="courseGrid">
+
+            <div class="courseCard">
+                <img src="img/html.jpg" class="courseImage" alt="Course">
+                <div class="courseContent">
+                    <h3>HTML Basics</h3>
+                    <p class="courseDetails">Manoj Mishra | 10 Lessons | Beginner</p>
+                    <div class="courseFee">
+                        <span class="fullFee">₹4,999</span>
+                        <div>
+                            <span>₹1,999</span>
+                            <a href="courses/html.html"><button class="viewButton">View Course</button></a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="courseCard">
+                <img src="img/css.jpg" class="courseImage" alt="Course">
+                <div class="courseContent">
+                    <h3>CSS Fundamentals</h3>
+                    <p class="courseDetails">Abhijeet Kaur | 12 Lessons | Intermediate</p>
+                    <div class="courseFee">
+                        <span class="fullFee">₹5,999</span>
+                        <div>
+                            <span>₹2,499</span>
+                            <a href="courses/css.html"><button class="viewButton">View Course</button></a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="courseCard">
+                <img src="img/js.png" class="courseImage" alt="Course">
+                <div class="courseContent">
+                    <h3>JavaScript Basics</h3>
+                    <p class="courseDetails">Harish Kalyan | 14 Lessons | Beginner</p>
+                    <div class="courseFee">
+                        <span class="fullFee">₹6,999</span>
+                        <div>
+                            <span>₹2,999</span>
+                            <a href="courses/js.html"><button class="viewButton">View Course</button></a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="courseCard">
+                <img src="img/react 2.jpg" class="courseImage" alt="Course">
+                <div class="courseContent">
+                    <h3>React for Beginners</h3>
+                    <p class="courseDetails">Ramesh Shinna | 16 Lessons | Beginner</p>
+                    <div class="courseFee">
+                        <span class="fullFee">₹7,999</span>
+                        <div>
+                            <span>₹3,499</span>
+                            <a href="courses/react.html"><button class="viewButton">View Course</button></a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="courseCard">
+                <img src="img/py.jpg" class="courseImage" alt="Python Course">
+                <div class="courseContent">
+                    <h3>Python Programming</h3>
+                    <p class="courseDetails">Sunita Jain | 18 Lessons | Beginner</p>
+                    <div class="courseFee">
+                        <span class="fullFee">₹7,499</span>
+                        <div>
+                            <span>₹3,199</span>
+                            <a href="courses/python.html"><button class="viewButton">View Course</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2025 SkillBoost. All rights reserved.</p>
+        <p>Contact: support@skillboost.com</p>
+    </div>
+
+    <div id="loginlogin" class="login">
+        <div class="loginContent">
+            <span class="closeBtn" onclick="closelogin()">&times;</span>
+            <h3>Login</h3>
+            <form>
+                <input type="text" placeholder="Username" required>
+                <input type="password" placeholder="Password" required>
+                <button type="submit">Login</button>
+            </form>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

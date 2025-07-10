@@ -1,0 +1,193 @@
+body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: #f4f4f4;
+            text-align: center;
+        }
+
+        .navbar {
+            background-color: #ffffff;
+            padding: 12px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: rgb(54, 54, 54);
+            position: sticky;
+            top: 0;
+            border-bottom: 1px solid #0056d2;
+        }
+
+        .navbarleft {
+            display: flex;
+            align-items: center;
+        }
+
+        .navbarleft .logo {
+            font-weight: bold;
+            font-size: 20px;
+            margin-right: 30px;
+            color: #0056d2;
+        }
+
+        .navbar a {
+            color: white;
+            margin-right: 16px;
+            text-decoration: none;
+            font-size: 14px;
+        }
+
+        .navbarright button {
+            background-color: #10b981;
+            color: white;
+            border: none;
+            padding: 8px 14px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+
+        .navbarright button:hover {
+            background-color: #0f766e;
+        }
+
+        .header {
+            background-color: #0056d2;
+            padding: 50px 20px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 36px;
+            color: #ffffff;
+        }
+
+        .header p {
+            margin-top: 10px;
+            color: #ffffff;
+        }
+
+        .courseGrid {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .courseCard {
+            background-color: white;
+            border-radius: 6px;
+            width: 260px;
+            overflow: hidden;
+            font-size: 14px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+
+        .courseImage {
+            width: 100%;
+            height: 150px;
+            object-fit: cover;
+        }
+
+        .courseContent {
+            padding: 10px;
+        }
+
+        .courseContent h3 {
+            margin: 0 0 6px 0;
+            font-size: 16px;
+            color: #222;
+        }
+
+        .courseDetails {
+            color: #555;
+            font-size: 13px;
+        }
+
+        .courseFee {
+            margin-top: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .fullFee {
+            text-decoration: line-through;
+            color: #999;
+            font-size: 13px;
+        }
+
+        .viewButton {
+            background-color: #10b981;
+            border: none;
+            color: white;
+            padding: 6px 10px;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 13px;
+        }
+
+        .viewButton:hover {
+            background-color: #0f766e;
+        }
+
+
+        .footer {
+            background-color: #1f2937;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+            font-size: 14px;
+        }
+
+
+        .login {
+            display: none;
+            position: fixed;
+            z-index: 99;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.4);
+        }
+
+        .loginContent {
+            background-color: #fff;
+            margin: 10% auto;
+            padding: 20px;
+            border-radius: 6px;
+            width: 300px;
+        }
+
+        .closeBtn {
+            float: right;
+            color: #aaa;
+            font-size: 22px;
+            cursor: pointer;
+        }
+
+        input[type="text"],
+        input[type="password"] {
+            width: 100%;
+            padding: 8px;
+            margin: 10px 0;
+            border-radius: 4px;
+            border: 1px solid #ccc;
+        }
+
+        button[type="submit"] {
+            width: 100%;
+            background-color: #10b981;
+            color: white;
+            padding: 8px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button[type="submit"]:hover {
+            background-color: #0f766e;
+        }
